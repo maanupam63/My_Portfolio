@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center pt-16 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
-          {/* Left Side - Text */}
+
           <div className="flex-1 text-center lg:text-left">
             <p className="text-sky-400 text-lg font-medium mb-2">Hi, I'm</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-2">
@@ -19,8 +19,7 @@ const Hero = () => {
               Building scalable web applications with React, Node.js, and MongoDB.
               Currently pursuing B.IT in Computer Engineering at Sanothimi Campus.
             </p>
-            
-            {/* Buttons */}
+                      
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start mt-6">
               <a
                 href="#contact"
@@ -36,7 +35,7 @@ const Hero = () => {
               </a>
             </div>
 
-            {/* Social Icons */}
+       
             <div className="flex gap-4 justify-center lg:justify-start mt-6">
               <a href="https://www.facebook.com/anupam.rijal.10" target="_blank" rel="noopener noreferrer" 
                 className="w-10 h-10 rounded-full bg-slate-700/50 flex items-center justify-center text-sky-400 hover:bg-sky-400 hover:text-white transition-all">
@@ -57,13 +56,13 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Side - Profile Photo with Spider Web Border */}
+  
           <div className="flex-1 flex justify-center lg:justify-end">
             <div className="relative group">
-              {/* Animated ring */}
+         
               <div className="absolute -inset-4 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full opacity-70 group-hover:opacity-100 blur-sm transition-opacity duration-500 animate-pulse"></div>
               
-              {/* Main image container */}
+           
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-sky-400/50 glow-image">
                 <img
                   src="mypic.jpg"
@@ -75,7 +74,7 @@ const Hero = () => {
                 />
               </div>
 
-              {/* Decorative spider web lines */}
+            
               <div className="absolute inset-0 pointer-events-none">
                 {[...Array(8)].map((_, i) => (
                   <div
@@ -90,7 +89,6 @@ const Hero = () => {
                 ))}
               </div>
 
-              {/* Floating badges */}
               <div className="absolute -top-2 -right-2 bg-slate-800/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs text-sky-400 border border-sky-400/30 animate-bounce">
                 🚀 React
               </div>

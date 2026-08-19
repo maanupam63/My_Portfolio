@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
               </div>
               
-              {/* Social Links */}
+        
               <div className="flex gap-3 mt-6">
                 <a
                   href="https://www.facebook.com/anupam.rijal.10"
@@ -75,8 +75,8 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            
-            {/* Right Side - Contact Form */}
+    
+    
             <div>
               <form className="space-y-4">
                 <div>

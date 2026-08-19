@@ -34,22 +34,22 @@ const Projects = () => {
               key={index}
               className="glass rounded-2xl p-6 hover:scale-105 transition-all duration-300 hover:border-sky-400/50 group"
             >
-              {/* Project Number */}
+       
               <div className="text-4xl font-bold text-sky-400/20 mb-2">
                 {(index + 1).toString().padStart(2, '0')}
               </div>
               
-              {/* Project Title */}
+       
               <h3 className="text-xl font-semibold text-white mb-3">
                 {project.title}
               </h3>
               
-              {/* Project Description */}
+          
               <p className="text-slate-400 text-sm leading-relaxed mb-4">
                 {project.description}
               </p>
               
-              {/* Tech Stack */}
+             
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, i) => (
                   <span
@@ -60,8 +60,8 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              
-              {/* View Link */}
+            
+            
               <a
                 href={project.link}
                 target="_blank"

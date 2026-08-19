@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Smooth Scroll */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -19,7 +18,7 @@ html {
   border-radius: 10px;
 }
 
-/* Spider Web Canvas - Full Screen */
+
 #spiderCanvas {
   position: fixed;
   top: 0;
@@ -30,13 +29,12 @@ html {
   pointer-events: none;
 }
 
-/* All content above canvas */
 .App {
   position: relative;
   z-index: 1;
 }
 
-/* Section spacing */
+
 section {
   padding: 80px 0;
   border-bottom: 1px solid rgba(30, 41, 59, 0.5);
@@ -45,7 +43,6 @@ section:last-of-type {
   border-bottom: none;
 }
 
-/* Glass effect cards */
 .glass {
   background: rgba(30, 41, 59, 0.6);
   backdrop-filter: blur(10px);
@@ -53,14 +50,12 @@ section:last-of-type {
   border-radius: 16px;
 }
 
-/* Gradient text */
 .gradient-text {
   background: linear-gradient(135deg, #38bdf8, #818cf8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Glow animation for profile image */
 @keyframes glow {
   0%, 100% { box-shadow: 0 0 20px rgba(56, 189, 248, 0.3); }
   50% { box-shadow: 0 0 60px rgba(56, 189, 248, 0.6); }

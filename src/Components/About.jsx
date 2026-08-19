@@ -26,7 +26,7 @@ const About = () => {
             </p>
           </div>
 
-          {/* Info Grid */}
+       
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
             <div className="flex items-center gap-3 p-3 rounded-lg bg-slate-800/50">
               <FaMapMarkerAlt className="text-sky-400 text-lg" />

@@ -29,7 +29,7 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+   
           <a href="#home" className="flex items-center gap-3">
             <span className="text-2xl font-extrabold bg-gradient-to-r from-sky-400 to-indigo-500 bg-clip-text text-transparent">
               AR
@@ -37,7 +37,6 @@ const Navbar = () => {
             <span className="text-white font-semibold hidden sm:block">Anupam Rijal</span>
           </a>
 
-          {/* Desktop Menu */}
           <ul className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <li key={link.name}>
@@ -52,7 +51,6 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Mobile Hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-slate-300 hover:text-white transition-colors"
@@ -61,7 +59,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        
         <div className={`md:hidden transition-all duration-300 overflow-hidden ${
           isOpen ? 'max-h-96 pb-4' : 'max-h-0'
         }`}>
